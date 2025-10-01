@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITCAMP - Pendaftaran UKM ITC</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ITCAMP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#benefits">Keuntungan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="btn btn-primary" href="https://forms.gle/nQ2gk9XiX4qrufdB7">Daftar Sekarang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto hero-content text-center">
+                    <h1 class="hero-title">Tingkatkan Skill IT-mu Bersama <span class="text-warning">ITCAMP</span></h1>
+                    <p class="hero-subtitle"></p>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a href="#register" class="btn btn-light btn-lg">Daftar Sekarang</a>
+                        <a href="#about" class="btn btn-outline-light btn-lg">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="section-title text-start">Apa Itu <span class="text-gradient">ITCAMP</span>?</h2>
+                    <p class="lead">ITCAMP adalah program yang diselenggarakan oleh UKM ITC untuk mahasiswa yang ingin mengembangkan skill di bidang teknologi.</p>
+                    <br>
+                    <!-- <p>Kami menawarkan kurikulum berbasis industri dengan fokus pada pengembangan keterampilan teknis yang paling diminati di pasar kerja saat ini.</p> -->
+                    <!-- <div class="row mt-4">
+                        <div class="col-4">
+                            <div class="text-center">
+                                <h3 class="text-gradient mb-0">500+</h3>
+                                <p class="text-muted">Alumni</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="text-center">
+                                <h3 class="text-gradient mb-0">92%</h3>
+                                <p class="text-muted">Penyerapan Kerja</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="text-center">
+                                <h3 class="text-gradient mb-0">25+</h3>
+                                <p class="text-muted">Mentor Expert</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="ITCAMP About" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-5 bg-light">
+        <div class="container py-5">
+            <h2 class="section-title">Keuntungan Bergabung</h2>
+            <p class="text-center mb-5">Mengapa harus memilih ITC?</p>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Mengasah Skill</h4>
+                        <p>tingkatakan skillmu di bidang teknologi.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h4>Kesempatan Karir</h4>
+                        <p>Memperbesar peluang kerja dimasa depan.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4>Project Based Learning</h4>
+                        <p>Belajar melalui pembuatan project nyata dengan bimbingan mentor.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Komunitas Solid</h4>
+                        <p>Bergabung dengan komunitas developer yang saling mendukung.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h4>Sertifikat</h4>
+                        <p>Dapatkan sertifikat yang diakui oleh industri setelah lulus.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>Portfolio</h4>
+                        <p>Buat portfolio project yang impressive untuk karirmu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="py-5">
+        <div class="container py-5">
+            <h2 class="section-title">Timeline Pendaftaran</h2>
+            <p class="text-center mb-5">Jangan lewatkan setiap tahapannya!</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Pendaftaran Dibuka</h4>
+                    <p class="text-primary mb-1">1 - 16 Oktober 2025</p>
+                    <p>Periode pendaftaran untuk peserta baru ITCAMP 2025.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>ITCAMP</h4>
+                    <p class="text-primary mb-1">18 - 19 Oktober 2025</p>
+                    <p>Pengenalan tentang devisi dan program UKM ITC.</p>
+                </div>
+                <!-- <div class="timeline-item">
+                    <h4>Tes Kemampuan Dasar</h4>
+                    <p class="text-primary mb-1">7 Oktober 2025</p>
+                    <p>Test online untuk mengukur kemampuan logika dan pemrograman dasar.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Pengumuman Hasil Seleksi</h4>
+                    <p class="text-primary mb-1">12 Oktober 2025</p>
+                    <p>Pengumuman peserta yang lolos ke tahap pelatihan intensif.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Pelatihan Intensif</h4>
+                    <p class="text-primary mb-1">15 Oktober - 15 Desember 2025</p>
+                    <p>Pelatihan intensif selama 2 bulan dengan mentor yang berpengalaman.</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!-- <section id="testimonials" class="py-5 bg-light">
+        <div class="container py-5">
+            <h2 class="section-title">Apa Kata Alumni?</h2>
+            <p class="text-center mb-5">Testimoni dari peserta ITCAMP sebelumnya</p>
+            
+            <!-- <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Testimonial" class="testimonial-img me-3">
+                            <div>
+                                <h5 class="mb-0">Ahmad Rizki</h5>
+                                <small class="text-primary">Frontend Developer</small>
+                            </div>
+                        </div>
+                        <p class="mb-0">"ITCAMP memberikan fondasi yang kuat untuk karir saya sebagai developer. Metode belajar yang praktis dan mentor yang supportive!"</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Testimonial" class="testimonial-img me-3">
+                            <div>
+                                <h5 class="mb-0">Siti Rahayu</h5>
+                                <small class="text-primary">Data Scientist</small>
+                            </div>
+                        </div>
+                        <p class="mb-0">"Project-based learning di ITCAMP sangat membantu saya memahami konsep secara mendalam. Sekarang saya lebih percaya diri dengan skill yang dimiliki."</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Testimonial" class="testimonial-img me-3">
+                            <div>
+                                <h5 class="mb-0">Budi Santoso</h5>
+                                <small class="text-primary">Fullstack Developer</small>
+                            </div>
+                        </div>
+                        <p class="mb-0">"Setelah lulus dari ITCAMP, saya langsung mendapatkan pekerjaan di perusahaan teknologi ternama. Terima kasih untuk semua mentornya!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --> -->
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5">
+        <div class="container py-5">
+            <h2 class="section-title">Pertanyaan Umum</h2>
+            <p class="text-center mb-5">Temukan jawaban dari pertanyaan yang sering diajukan</p>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Siapa yang bisa mendaftar ITCAMP?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    ITCAMP terbuka untuk semua mahasiswa aktif dari berbagai jurusan yang memiliki minat dalam pemrograman dan teknologi informasi.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Apakah ada biaya pendaftaran?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Pendaftaran ITCAMP hanya 80K! Kami ingin memberikan kesempatan seluas-luasnya bagi mahasiswa yang ingin belajar pemrograman.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Apa saja yang dipelajari di ITCAMP?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Kamu akan mempelajari dasar-dasar pemrograman, pengembangan web (HTML, CSS, JavaScript, React), backend development (Node.js, Express), database, dan deployment.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Berapa lama program ITCAMP?
+                                </button> -->
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="py-5">
+        <div class="container py-5">
+            <div class="registration-cta rounded">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mb-4">Siap Bergabung dengan ITCAMP?</h2>
+                        <p class="mb-4">Daftar sekarang dan raih kesempatan untuk mengembangkan skill IT-mu!</p>
+                        <a href="https://forms.gle/nQ2gk9XiX4qrufdB7" class="btn btn-light btn-lg px-5 mb-4" target="_blank">
+                            <i class="fas fa-pencil-alt me-2"></i> Daftar Sekarang
+                        </a>
+                        <p class="mb-0">Pendaftaran ditutup pada 16 September 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h3 class="text-white mb-4">ITCAMP</h3>
+                    <p>Program pelatihan pemrograman intensif oleh UKM ITC untuk mencetak developer handal siap industri.</p>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="text-white mb-4">Kontak Kami</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> Gedung Student Center, Kampus Universitas</p>
+                    <p><i class="fas fa-envelope me-2"></i> itcamp@ukm-itc.ac.id</p>
+                    <p><i class="fas fa-phone me-2"></i> +62 812 3456 7890</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-white mb-4">Follow Kami</h5>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 ITCAMP - UKM ITC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating action button -->
+    <a href="https://docs.google.com/forms/your-form-link" class="floating-btn" target="_blank">
+        <i class="fas fa-pencil-alt"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
